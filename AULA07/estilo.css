@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.lado-esquerdo > img {
+    width: 60%;
+}
+
+.lado-direito, .lado esquerdo {
+    width: 50%;
+}
+
+.lado-direito > .formulario {
+    background-color: #dedede;
+    border-radius: 5px;
+    padding-top: 20px;
+
+}

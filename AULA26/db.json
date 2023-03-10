@@ -1,0 +1,70 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "titulo": "calças",
+            "descrição": "calças de botar"
+        },
+        {
+            "id": 2,
+            "titulo": "botas",
+            "descrição": "botas de calçar"
+        },
+        {
+            "id": 3,
+            "titulo": "camisas",
+            "descrição": "camisas de vestir"
+        }
+    ],
+    "produtos": [
+        {
+            "id": 1,
+            "categoria_id": 2,
+            "tamanho": "36",
+            "codigo": "10982-4",
+            "cor": "jeans",
+            "marca": "ArteSurf",
+            "descrição": "",
+            "valor": 59.90,
+            "titulo": "calças",
+            "quantidade": 10,
+            "imagens": [
+                "imagem01.jpg",
+                "imagem2.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "categoria_id": 2,
+            "tamanho": "M",
+            "codigo": "10982-4",
+            "cor": "preta",
+            "marca": "ArteSurf",
+            "descrição": "",
+            "valor": 59.90,
+            "titulo": "bota cano alto",
+            "quantidade": 10,
+            "imagens": [
+                "imagem01.jpg",
+                "imagem2.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "categoria_id": 2,
+            "tamanho": "41",
+            "codigo": "10982-4",
+            "cor": "preta",
+            "marca": "ArteSurf",
+            "descrição": "",
+            "valor": 59.90,
+            "titulo": "camisas",
+            "quantidade": 10,
+            "imagens": [
+                "imagem01.jpg",
+                "imagem2.jpg"
+            ]
+        }
+    ],
+    "clientes": []
+}

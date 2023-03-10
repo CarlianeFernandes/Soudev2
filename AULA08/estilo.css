@@ -1,0 +1,86 @@
+body {
+    background-color: #dedede;
+}
+
+.secao-detalhes {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.secao-detalhes article {
+    background-color: #ffffff;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    /*vertical*/
+    justify-content: center;
+    /*horizonte*/
+
+    transition: 1s;
+    box-shadow: 0px 0px 15px
+}
+
+.secao-detalhes article:hover {
+    color: red;
+    transition: 1s;
+    transform: scale(1.2) rotate(-60deg);
+}
+
+.secao-detalhes i {
+    font-size: 6rem;
+}
+
+
+#sabores {
+    width: 300px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10 px #00000015;
+    padding: 16px;
+}
+
+#sabores label {
+    display: block;
+}
+
+#sabores input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+#sabores input[type="checkbox"]::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #aa00e3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    transition: all 200ms;
+}
+
+#sabores input[type="checkbox"]:checked::after {
+    background-color: #aa00e3;
+}
+
+#sabores input[type="checkbox"]::before {
+    content: "";
+    width: 12px;
+    height: 5px;
+    position: absolute;
+    top: calc(50% - 3px);
+    left: calc(50% - 5px);
+    transform: rotate(-45deg);
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    z-index: 1;
+}

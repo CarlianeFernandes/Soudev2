@@ -1,0 +1,13 @@
+.botao{
+    background-color: blue;
+    height: 46px;
+    padding: 0 26px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+}
+.botao:hover{
+    background-color: rgb(red, green, blue);
+    
+
+}

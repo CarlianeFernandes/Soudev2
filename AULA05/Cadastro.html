@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <form>
+        <label for="">nome</label>
+        <input type="text" id="nome" placeholder="Digite seu nome" required>
+        <label for="">email</label>
+        <input type="email" id="email" placeholder="Digite seu email" required>
+        <label for="">telefone</label>
+        <input type="tel" id="telefone" placeholder="(00) 00000-0000">
+        <button onclick="enviou()" class="botao-grande">Enviar</button>
+    </form>
+    <script>
+        function enviou() {
+            event.preventDefault();
+            alert(`nome: ${nome.value}, email: ${email.value}, telefone: ${telefone.value}`)
+        }
+    </script>
+</body>
+
+</html>
